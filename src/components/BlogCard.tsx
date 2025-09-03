@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardFooter, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
+import { Card, CardFooter, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { posts, type Post } from "@/data/posts";
 import Image from "next/image";
 
