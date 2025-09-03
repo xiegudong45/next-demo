@@ -1,5 +1,4 @@
 import BlogCard from "@/components/BlogCard";
-import { getBlogs } from "@/lib/blogs";
 import { posts } from "@/data/posts";
 
 export default async function BlogPage() {

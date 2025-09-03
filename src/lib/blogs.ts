@@ -1,4 +1,11 @@
-import { BlogSummary } from "../components/BlogCard";
+export interface BlogSummary {
+  id: number;
+  slug: string;
+  title: string;
+  description: string;
+  date: string;
+  image?: string;
+}
 
 export async function getBlogs(): Promise<BlogSummary[]> {
   // simulate network latency
